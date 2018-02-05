@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>GARO ESTATE | Home page</title>
+        <title>RENT ANYTHING| Home page</title>
         <meta name="description" content="GARO is a real-estate template">
         <meta name="author" content="Kimarotec">
         <meta name="keyword" content="html5, css, bootstrap, property, real-estate theme , bootstrap template">
@@ -184,26 +184,32 @@
                                 <button class="btn  toggle-btn" type="button"><i class="fa fa-bars"></i></button>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Key word">
+                                    <input type="text" class="form-control" placeholder="Type here...">
                                 </div>
                                 <div class="form-group">                                   
                                     <select id="lunchBegins" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Select your city">
-
-                                        <option>New york, CA</option>
-                                        <option>Paris</option>
-                                        <option>Casablanca</option>
-                                        <option>Tokyo</option>
-                                        <option>Marraekch</option>
-                                        <option>kyoto , shibua</option>
+                                        <option value="">Choose Location</option>
+                                        <option value="1">Faridkot</option>
+                                        <option value="5">Firozpur</option>
+                                        <option value="10">Fatehgarh Sahib</option>
+                                        <option value="15">Kapurthala</option>
+                                        <option value="20">Gurdaspur</option>
+                                        <option value="25">Hoshiarpur</option>
+                                        <option value="30">Jalandhar</option>
+                                        <option value="35">Ludhiana</option>
+                                        <option value="40"> Mansa</option>
+                                        <option value="45">Moga</option>
+                                        <option value="50">muktsar</option>
                                     </select>
                                 </div>
                                 <div class="form-group">                                     
                                     <select id="basic" class="selectpicker show-tick form-control">
-                                        <option> -Status- </option>
-                                        <option>Rent </option>
-                                        <option>Boy</option>
-                                        <option>used</option>  
-
+                                        <option> -Category- </option>
+                                        <option value="furniture">Furniture</option>
+                                        <option value="appliances">Appliances</option>
+                                        <option value="accomodation">Electronics</option>
+                                        <option value="automobiles">Automobiles</option>
+                                        <option value="computers">Computers</option>
                                     </select>
                                 </div>
                                 <button class="btn search-btn" type="submit"><i class="fa fa-search"></i></button>
@@ -236,7 +242,8 @@
                                     <div class="search-row">
 
                                         <div class="form-group mar-r-20">
-                                            <label for="price-range">Min baths :</label>
+                                            <label for="price-range">From :</label>
+                                            <input type="date" class="span2" />
                                             <input type="text" class="span2" value="" data-slider-min="0" 
                                                    data-slider-max="600" data-slider-step="5" 
                                                    data-slider-value="[250,450]" id="min-baths" ><br />
@@ -246,7 +253,7 @@
                                         <!-- End of  --> 
 
                                         <div class="form-group mar-l-20">
-                                            <label for="property-geo">Min bed :</label>
+                                            <label for="property-geo">To :</label>
                                             <input type="text" class="span2" value="" data-slider-min="0" 
                                                    data-slider-max="600" data-slider-step="5" 
                                                    data-slider-value="[250,450]" id="min-bed" ><br />
@@ -257,95 +264,7 @@
 
                                     </div>
                                     <br>
-                                    <div class="search-row">  
-
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox"> Fire Place(3100)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- End of  -->  
-
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox"> Dual Sinks(500)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- End of  --> 
-
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox"> Hurricane Shutters(99)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- End of  --> 
-                                    </div>
-
-                                    <div class="search-row">  
-
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox"> Swimming Pool(1190)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- End of  -->  
-
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox"> 2 Stories(4600)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- End of  --> 
-
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox"> Emergency Exit(200)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- End of  --> 
-                                    </div>                                    
-
-                                    <div class="search-row">  
-
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox"> Laundry Room(10073)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- End of  -->  
-
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox"> Jog Path(1503)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- End of  --> 
-
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox"> 26' Ceilings(1200)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- End of  --> 
-                                    </div>   
+                                  
 
                                 </div>                     
 
