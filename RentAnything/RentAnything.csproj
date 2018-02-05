@@ -235,11 +235,7 @@
     <Content Include="contact-3.html" />
     <Content Include="contact.html" />
     <Content Include="faq.html" />
-    <Content Include="index-2.html" />
-    <Content Include="index-3.html" />
-    <Content Include="index-4.html" />
     <Content Include="index-5.html" />
-    <Content Include="index.html" />
     <Content Include="properties-2.html" />
     <Content Include="properties-3.html" />
     <Content Include="properties.html" />
