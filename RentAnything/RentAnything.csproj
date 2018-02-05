@@ -170,6 +170,9 @@
     <Content Include="assets\img\skin\yellow.png" />
     <Content Include="assets\img\skin\yellow_1.png" />
     <Content Include="assets\img\slide-2.jpg" />
+    <Content Include="assets\img\slide1\s3.jpg" />
+    <Content Include="assets\img\slide1\slide-2.jpg" />
+    <Content Include="assets\img\slide1\slide-4.jpg" />
     <Content Include="assets\img\slide1\slide1.jpg" />
     <Content Include="assets\img\slide1\slider-image-1.jpg" />
     <Content Include="assets\img\slide1\slider-image-2.jpg" />
